@@ -1,4 +1,4 @@
-# Channel Augmented Joint Learning for Visible-Infrared Recognition (ICCV 2021) 
+# Channel Semantic Mutual Learning for Visible-Thermal Person Re-Identification 
 Pytorch Code of CAJ method [1] for Cross-Modality Person Re-Identification (Visible Thermal Re-ID) on RegDB dataset [4] and SYSU-MM01 dataset [5]. 
 
 A Huawei MindSpore implementation of our proposed method is avaiable at [MindSpore CAJ](https://gitee.com/mindspore/contrib/tree/master/papers/CAJ).
@@ -7,8 +7,8 @@ We adopt the two-stream network structure introduced in [2,3].
 
 |Datasets    | Pretrained| Rank@1  | mAP |  mINP |  Model|
 | --------   | -----    | -----  |  -----  | ----- |------|
-|#RegDB      | ImageNet | ~ 85.03% | ~ 79.14%|  ~65.33% |----- |
-|#SYSU-MM01  | ImageNet | ~ 69.88%  | ~ 66.89% | ~53.61% | [GoogleDrive](https://drive.google.com/file/d/1vIKkB61frqA-zG0RiL282heqthvwkKdO/view?usp=sharing)|
+|#RegDB      | ImageNet | ~ 89.22% | ~ 83.57%|  ~65.93% |----- |
+|#SYSU-MM01  | ImageNet | ~ 71.21%  | ~ 67.68% | ~54.12% | 
 
 *Both of these two datasets may have some fluctuation due to random spliting. The results might be better by finetuning the hyper-parameters. 
 
